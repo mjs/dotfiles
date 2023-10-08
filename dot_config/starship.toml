@@ -1,0 +1,30 @@
+add_newline = false
+
+[username]
+format = '[$user]($style) '
+
+[hostname]
+ssh_symbol = '@'
+format = '[$ssh_symbol$hostname]($style) '
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[package]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[golang]
+disabled = true
+
+[python]
+detect_extensions = []
+format = '[${symbol}(\($virtualenv\)) ]($style)'
+
+[lua]
+disabled = true
+
+[cmd_duration]
+disabled = true
