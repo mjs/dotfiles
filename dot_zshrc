@@ -110,7 +110,7 @@ export SAVEHIST=$HISTSIZE
 
 # fzf bindings
 if [[ ! -z $NIX_PROFILES ]]; then
-    source $(nix eval -f '<nixpkgs>' --raw fzf)/share/fzf/key-bindings.zsh
+    source $(nix eval --offline -f '<nixpkgs>' --raw fzf)/share/fzf/key-bindings.zsh
 fi
 #eval "$(fzf --zsh)"  # after 0.48
 
