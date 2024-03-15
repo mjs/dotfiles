@@ -108,10 +108,11 @@ export HISTFILE="$HOME/.zshhistory"
 export HISTSIZE=5000
 export SAVEHIST=$HISTSIZE
 
-# Automatic directory history
-DIRSTACKSIZE=20
-setopt autopushd pushdminus pushdsilent pushdtohome
-alias dh='dirs -v'
+# fzf bindings
+if [[ ! -z $NIX_PROFILES ]]; then
+    source $(nix eval -f '<nixpkgs>' --raw fzf)/share/fzf/key-bindings.zsh
+fi
+#eval "$(fzf --zsh)"  # after 0.48
 
 source ~/.local/lib/zsh/zsh-z.plugin.zsh
 
