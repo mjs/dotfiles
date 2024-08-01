@@ -1,0 +1,9 @@
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "light" }
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+  { key = "F", mods = "Control|Shift", action = "ToggleFullscreen" },
+  { key = "F11", action = "ToggleFullscreen" },
+]
