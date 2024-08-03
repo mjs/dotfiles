@@ -7,3 +7,18 @@ bindings = [
   { key = "F", mods = "Control|Shift", action = "ToggleFullscreen" },
   { key = "F11", action = "ToggleFullscreen" },
 ]
+
+[window]
+option_as_alt = "Both"
+
+[window.padding]
+x = 1
+y = 1
+
+[terminal]
+osc52 = "CopyPaste"
+
+# This is mainly important for MacOS
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
