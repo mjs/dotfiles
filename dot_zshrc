@@ -53,14 +53,15 @@ imv() {
     done
 }
 
-# Command line editing
-
+# Window title
 case $TERM in
-    *rxvt*|*xterm*)
+    foot|*rxvt*|*xterm*)
         precmd () {print -Pn "\e]0;%M: %~ [%n]\a"}
         preexec () {print -Pn "\e]0;%M: $2 [%n]\a"}
         ;;
 esac
+
+# Command line editing
 
 bindkey -v    # Vi key bindings
 
