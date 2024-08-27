@@ -112,9 +112,8 @@ if [[ ! -z $NIX_PROFILES ]]; then
     eval "$(fzf --zsh)"  # after 0.48
 fi
 
-source ~/.local/lib/zsh/zsh-z.plugin.zsh
-
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # Syntax highlighting in the shell
 # Must be loaded last.
