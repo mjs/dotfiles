@@ -20,5 +20,5 @@ osc52 = "CopyPaste"
 
 # This is mainly important for MacOS
 [shell]
-program = "/bin/zsh"
+program = "zsh"
 args = ["-l"]
