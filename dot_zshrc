@@ -107,11 +107,7 @@ export HISTFILE="$HOME/.zshhistory"
 export HISTSIZE=5000
 export SAVEHIST=$HISTSIZE
 
-# fzf bindings
-if [[ ! -z $NIX_PROFILES ]]; then
-    eval "$(fzf --zsh)"  # after 0.48
-fi
-
+source <(fzf --zsh)
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
