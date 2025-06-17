@@ -1,0 +1,5 @@
+#!/bin/sh
+
+swayidle \
+    timeout 120 "~/.local/bin/lock-screen slow" \
+    before-sleep ~/.local/bin/lock-screen
