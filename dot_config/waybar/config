@@ -24,7 +24,8 @@
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%e %B %H:%M}"
+        "format": "{:%e %B %H:%M:%S}",
+        "interval": 1
     },
     "cpu": {
         "format": "{usage}%  ",
@@ -53,7 +54,7 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
+        "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
