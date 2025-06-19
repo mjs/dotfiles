@@ -279,6 +279,7 @@ spawn-at-startup "~/.local/bin/auto-lock"
 spawn-at-startup "waybar"
 spawn-at-startup "wpaperd"
 spawn-at-startup "xwayland-satellite"
+spawn-at-startup "nm-applet"
 
 environment {
     DISPLAY ":0"
