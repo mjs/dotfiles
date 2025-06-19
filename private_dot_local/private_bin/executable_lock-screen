@@ -1,15 +1,15 @@
 #!/bin/sh
 
 args="
-    --screenshots
-    --effect-blur 16x8
+    --image ~/Dropbox/Media/wallpapers/sunrise-over-the-lake-picture-3840x2160_79968-mm-90.jpg
+    --scaling fill
     --indicator-radius 128
     --font Cantarell
     --clock
-    --inside-color 1e1e2e66
-    --inside-clear-color 1e1e2e66
-    --inside-ver-color 1e1e2e66
-    --inside-wrong-color 1e1e2e66
+    --inside-color 1e1e2ecc
+    --inside-clear-color 1e1e2ecc
+    --inside-ver-color 1e1e2ecc
+    --inside-wrong-color 1e1e2ecc
     --ring-color 74c7ec
     --line-uses-ring
     --separator-color 00000000
@@ -25,7 +25,7 @@ if [[ "$1" == "fade" ]]; then
 fi
 
 if [[ "$1" == "slow" ]]; then
-    args="$args --fade-in 5 --grace 10"
+    args="$args --fade-in 5 --grace 30"
 fi
 
 swaylock $args
