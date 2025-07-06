@@ -19,6 +19,11 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+tooltip {
+    border-radius: 6px;
+    background-color: rgba(30, 30, 46, 1);
+}
+
 button {
     /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: none;
