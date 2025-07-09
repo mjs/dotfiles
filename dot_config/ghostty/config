@@ -4,6 +4,7 @@ window-inherit-font-size = false
 
 gtk-adwaita = true
 gtk-titlebar = false
+window-decoration = none
 
 theme = Tomorrow Night Bright
 # theme = ayu
