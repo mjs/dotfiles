@@ -366,6 +366,7 @@ binds {
     Mod+I hotkey-overlay-title="Open a Terminal" { spawn "ghostty"; }
     Mod+B hotkey-overlay-title="Open a Brower" { spawn "firefox" "--new-window"; }
     Mod+Return hotkey-overlay-title="Run an Application" { spawn "fuzzel"; }
+    Mod+SemiColon hotkey-overlay-title="Emoji" { spawn "~/.local/bin/fuzzel-emoji"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
