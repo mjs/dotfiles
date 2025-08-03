@@ -6,9 +6,8 @@ gtk-adwaita = true
 gtk-titlebar = false
 window-decoration = none
 
-theme = Tomorrow Night Bright
-# theme = ayu
-# theme = AtomOneLight
+theme = ayu
+#theme = AtomOneLight
 # window-decoration = false
 unfocused-split-opacity = 0.8
 
