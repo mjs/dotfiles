@@ -39,7 +39,7 @@
         "on-click": "gnome-calendar"
     },
     "cpu": {
-        "format": "{usage}%  ",
+        "format": "{usage}% ",
         "tooltip": false,
         "on-click": "gnome-system-monitor -p"
     },

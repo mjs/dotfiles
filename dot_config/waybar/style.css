@@ -44,7 +44,6 @@ button:hover {
 }
 
 #workspaces button {
-    /* padding: 0 5px; */
     background-color: transparent;
     color: #ffffff;
 }
@@ -85,7 +84,7 @@ button:hover {
 #scratchpad,
 #window,
 #workspaces {
-    padding: 0 10px;
+    padding: 0 14px 0 12px;
     color: #f0f0ff;
     background-color: rgba(30, 30, 46, 0.7);
     border-radius: 6px;
@@ -111,7 +110,7 @@ button:hover {
 #battery {
     /* background-color: #f9e2af; */
     /* color: #000000; */
-    margin-left: 4px;
+    min-width: 3.6em;
 }
 
 /*
@@ -146,15 +145,14 @@ label:focus {
     /* background-color: #f38ba8; */
     /* color: #000000; */
     /* border-radius: 99px 0px 0px 99px; */
-    padding: 0 0 0 10px;
-    margin-left: 4px;
+    min-width: 3.6em;
 }
 
 #memory {
     /* background-color: #fab387; */
     /* color: #000000; */
     /* border-radius: 0px 99px 99px 0px; */
-    /* padding: 0 10px 0 0; */
+    min-width: 3.6em;
 }
 
 #disk {
@@ -169,12 +167,6 @@ label:focus {
     /* background-color: #a6e3a1; */
     /* color: #000000; */
 }
-
-/*
-#network.disconnected {
-    background-color: #f53c3c;
-}
-*/
 
 #taskbar {
     margin-left: 4px;
@@ -210,7 +202,7 @@ label:focus {
 }
 
 #pulseaudio {
-    min-width: 65px;
+    min-width: 3.6em;
 }
 
 #wireplumber {
@@ -245,7 +237,7 @@ label:focus {
 }
 
 #tray {
-    /* background-color: #2980b9; */
+    min-width: 3em;
 }
 
 #tray > .passive {
@@ -257,8 +249,16 @@ label:focus {
     background-color: #eb4d4b;
 }
 
+#bluetooth {
+    padding-left: 7px;
+    padding-right: 8px;
+    min-width: 3em;
+}
+
 #idle_inhibitor {
-    padding-right: 20px;
+    padding-left: 4px;
+    padding-right: 12px;
+    min-width: 2em;
 }
 
 #idle_inhibitor.activated {
